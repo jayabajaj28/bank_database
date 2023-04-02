@@ -1,0 +1,26 @@
+[
+  {
+    "account_pin": "1242",
+    "account_name": "Jaya",
+    "account_number": "000881639",
+    "account_balance": "250000"
+  },
+  {
+    "account_pin": "1039",
+    "account_name": "John",
+    "account_number": "648294",
+    "account_balance": "50090"
+  },
+  {
+    "account_pin": "9472",
+    "account_name": "Kiara",
+    "account_number": "827071",
+    "account_balance": "7000"
+  },
+  {
+    "account_pin": "2648",
+    "account_name": "Peter",
+    "account_number": "825100",
+    "account_balance": "600"
+  }
+]
