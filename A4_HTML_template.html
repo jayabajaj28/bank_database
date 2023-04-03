@@ -1,0 +1,72 @@
+<!-- This is a template for one possible solution of this assignment
+Feel free to modify this template or create your own from scratch using your own logic for completing this assignment. -->
+
+<html>
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      .SubMsg {
+        border: 5px outset red;
+        background-color: lightblue;
+        text-align: center;
+      }
+    </style>
+    <title>ATM Jaya Bajaj: 000881639</title>
+    <!--Replace "John Doe" with your Name and "000123456" with your ID -->
+  </head>
+  <body onload="initialize();">
+    <h2>ATM Prepared by Jaya Bajaj (000881639)</h2>
+    <!--Replace "John Doe" with your Name-->
+
+    <table border="1" style="width: 300">
+      <tr>
+        <td colspan="2" style="text-align: center; vertical-align: middle">
+          <h3>Enter one of the following credentials to login:</h3>
+          <br />
+          Account#:<input
+            name="display"
+            value=""
+            id="accountNumber"
+            type="text"
+          /><br /><br />
+          PIN #:<input
+            name="display"
+            id="pinNumber"
+            type="password"
+            value=""
+          /><br />
+          <br />
+          Option #:<input
+            name="display"
+            id="choice"
+            type="text"
+            value=""
+          /><br /><br />
+          <div name="SubMsg" class="SubMsg" id="SubMsg"></div>
+          <!--The message will be displayed here-->
+        </td>
+      </tr>
+
+      <tr>
+        <td><button onclick="enterPressed();">Submit</button></td>
+        <td><button onclick="initialize();">Cancel</button></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="width: 70px; height: 70px">
+          <div name="Message" id="Message"></div>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <div id="table-container"></div>
+    <script src="account_customer_template.js"></script>
+    <script src="atm_template.js"></script>
+  </body>
+</html>
